@@ -1,3 +1,4 @@
+
 .table-panel {
     display: flex;
     justify-content: center;
@@ -11,17 +12,17 @@ table {
 }
 
 th, td {
-    border: 1px solid #d74747;
+    border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
 
 th {
-    background-color: #22ff38;
+    background-color: #2eeaff;
 }
 
 button {
-    background-color: #1c2bf7;
+    background-color: #3a6fff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -35,6 +36,11 @@ button {
     justify-content: center;
     margin-top: 20px;
         margin-left: 650px;
+        border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0033be;
 }
 
 .button-panel {
@@ -47,6 +53,6 @@ button {
     display: flex;
     text-align: center;
     font-size: 24px;
-    color: #e22020;
     justify-content: space-between;
+    text-decoration: none;
 }
