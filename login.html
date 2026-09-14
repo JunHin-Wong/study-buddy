@@ -29,7 +29,7 @@
   </main>
     
     <script>
-        document.getElementsByClassName("loginform").addEventListener('submit',function(event){
+        document.getElementById("loginForm").addEventListener("submit",function(event){
             event.preventDefault();
             var email = document.getElementById('email').value;
             sessionStorage.setItem("student",email)
