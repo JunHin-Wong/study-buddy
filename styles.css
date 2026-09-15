@@ -1,12 +1,17 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('jun hin shit/study-buddy-background.jpg');
+}
 .login-page { 
 display: grid; place-items: center;
-min-height: 100vh; padding: 24px; 
+min-height: 100vh; padding: 24px;
 }
 .login-form { 
-width: min(430px, 100%); background: #0A2947; 
+width: min(430px, 100%); background: #03eeff; 
 border: 1px solid #000000;
 border-radius: 22px; padding: 40px; 
-box-shadow: 0 20px 70px; color: rgb(250, 235, 147); 
+box-shadow: 0 20px 70px; color: rgb(255, 217, 0); 
 }
 .login-form h2 { 
 font-size: 2.4rem; 
@@ -32,7 +37,7 @@ margin-bottom: 18px;
 }
 .field label {
 font-weight: 750; font-size: 20px; 
-color: #D3D4C0;
+color: #000000;
 }
 .field input, .field select {
 height: 52px; border: 1px solid #000000; 
